@@ -2213,6 +2213,16 @@
 				width: 100%;
 			}
 
+	.imagewrapper {
+		width: 100%;
+	}
+
+		.imagewrapper img {
+			max-width: 100%;
+			height: auto;
+			width: auto;
+		}
+
 /* List */
 
 	ol {
