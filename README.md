@@ -1,6 +1,6 @@
 My Personal Résumé Website
 =========
 
-[Check out what I'm up to][web]!
+I'm a senior at The University of Michigan studying Computer Engineering. [Check out what I'm up to][web]!
 
 [web]: https://www.matthewboris.me
