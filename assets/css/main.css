@@ -7,30 +7,45 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-.progress-container {
-	left:0;
-	width: 100%;
-	height: 0.4em;
-	margin-bottom: 0px;
-	position: fixed;
-	bottom: 0px;
-	overflow: hidden;
-	background-color:transparent;
-	content: "";
-	display: table;
-	table-layout: fixed;
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  -webkit-transform: translate3d(0, -50px, 0);
+  -ms-transform: translate3d(0, -50px, 0);
+  transform: translate3d(0, -50px, 0);
+
+  -webkit-transition: -webkit-transform .5s ease-out;
+  -ms-transition: -webkit-transform .5s ease-out;
+  transition: transform .5s ease-out;
 }
 
-.progress {
-	width: 0%;
-	float: left;
-	height: 100%;
-	z-index:99;
-	max-width: 100%;
-	background-color:grey;
-	-webkit-transition: width .6s ease;
-	-o-transition: width .6s ease;
-	transition: width .6s ease;
+.pace.pace-active {
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.pace .pace-progress {
+  display: block;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 10px;
+  background: #29d;
+
+  pointer-events: none;
 }
 
 /* Reset */
