@@ -17,6 +17,10 @@
 	});
 
 	$(function() {
+		$(window).on('beforeunload', function() {
+			$(window).scrollTop(0);
+		});
+
 		var	$window = $(window),
 			$body = $('body'),
 			$header = $('#header'),
@@ -28,7 +32,7 @@
 			$window.on('load', function() {
 				window.setTimeout(function() {
 					$body.removeClass('is-loading');
-				}, 100);
+				}, 0);
 			});
 
 		// Fix: Placeholder polyfill.
