@@ -38,7 +38,7 @@
 .pace .pace-progress {
   display: block;
   position: fixed;
-  z-index: 2000;
+  z-index: 99999999;
   top: 0;
   right: 100%;
   width: 100%;
