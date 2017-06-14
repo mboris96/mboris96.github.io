@@ -2207,6 +2207,7 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
+		width: auto;
 	}
 
 		.image img {
