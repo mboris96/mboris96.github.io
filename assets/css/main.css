@@ -1756,7 +1756,6 @@
 			font-weight: 700;
 			letter-spacing: 0.1em;
 			margin: 0 0 2em 0;
-			text-transform: uppercase;
 		}
 
 			a.special:not(.button):before {
@@ -1765,7 +1764,6 @@
 				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
-				text-transform: none !important;
 			}
 
 			a.special:not(.button):before {
@@ -1814,7 +1812,6 @@
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1964,7 +1961,6 @@
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 0.7em 0;
-		text-transform: uppercase;
 	}
 
 	input[type="text"],
@@ -2019,7 +2015,6 @@
 			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
-			text-transform: none !important;
 		}
 
 		.select-wrapper:before {
@@ -2078,7 +2073,6 @@
 			display: inline-block;
 			font-size: 1em;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			text-transform: none;
 			letter-spacing: 0;
 			font-weight: 300;
 			padding-left: 2.4em;
@@ -2093,7 +2087,6 @@
 				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
-				text-transform: none !important;
 			}
 
 			input[type="checkbox"] + label:before,
@@ -2193,7 +2186,6 @@
 			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
-			text-transform: none !important;
 		}
 
 		.icon > .label {
@@ -2439,7 +2431,6 @@
 					font-family: FontAwesome;
 					font-style: normal;
 					font-weight: normal;
-					text-transform: none !important;
 				}
 
 				ul.contact li:before {
@@ -2581,7 +2572,6 @@
 		padding: 0 2.25em;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
 		white-space: nowrap;
 	}
 
@@ -2816,7 +2806,6 @@
 			line-height: 3em;
 			position: absolute;
 			right: 0.7em;
-			text-transform: uppercase;
 			top: 0.7em;
 		}
 
@@ -2848,7 +2837,6 @@
 						font-family: FontAwesome;
 						font-style: normal;
 						font-weight: normal;
-						text-transform: none !important;
 					}
 
 					#header nav a[href="#menu"]:before {
@@ -3035,7 +3023,6 @@
 					letter-spacing: 0.1em;
 					line-height: 1.85em;
 					padding: 0.75em 0;
-					text-transform: uppercase;
 				}
 
 					#menu .links li a:hover {
@@ -3163,7 +3150,6 @@
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
-			text-transform: uppercase;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3273,7 +3259,6 @@
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
-			text-transform: uppercase;
 		}
 
 	@media screen and (max-width: 1280px) {
