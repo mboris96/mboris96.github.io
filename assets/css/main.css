@@ -50,7 +50,7 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, contactme, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -59,7 +59,7 @@
 		vertical-align: baseline;
 	}
 
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	article, aside, details, figcaption, figure, contactme, header, hgroup, menu, nav, section {
 		display: block;
 	}
 
@@ -2278,6 +2278,7 @@
 
 	ul {
 		list-style: disc;
+		list-style-position: inside;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
@@ -3605,9 +3606,9 @@
 
 		}
 
-/* Footer */
+/* contactme */
 
-	#footer .inner {
+	#contactme .inner {
 		padding: 5em 0 3em 0 ;
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3625,20 +3626,20 @@
 		width: 55em;
 	}
 
-		#footer .inner > * {
+		#contactme .inner > * {
 			width: 100%;
 		}
 
-		#footer .inner form {
+		#contactme .inner form {
 			margin: 0 3em 0 0;
 			width: calc(50% - 1.5em);
 		}
 
-		#footer .inner .contact {
+		#contactme .inner .contact {
 			width: calc(50% - 1.5em);
 		}
 
-		#footer .inner .copyright {
+		#contactme .inner .copyright {
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
 			list-style: none;
 			margin: 4em 0 2em 0;
@@ -3646,7 +3647,7 @@
 			width: 100%;
 		}
 
-			#footer .inner .copyright li {
+			#contactme .inner .copyright li {
 				border-left: solid 2px rgba(255, 255, 255, 0.125);
 				color: rgba(255, 255, 255, 0.35);
 				display: inline-block;
@@ -3657,19 +3658,19 @@
 				padding-left: 1em;
 			}
 
-				#footer .inner .copyright li:first-child {
+				#contactme .inner .copyright li:first-child {
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
 				}
 
-				#footer .inner .copyright li a {
+				#contactme .inner .copyright li a {
 					color: inherit;
 				}
 
 	@media screen and (max-width: 1280px) {
 
-		#footer {
+		#contactme {
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto, cover;
@@ -3682,28 +3683,28 @@
 
 	@media screen and (max-width: 980px) {
 
-		#footer {
+		#contactme {
 			margin-top: -4.75em;
 			padding-top: 4.75em;
 		}
 
-			#footer .inner {
+			#contactme .inner {
 				padding: 3em 3em 1em 3em ;
 				display: block;
 				width: 100%;
 			}
 
-				#footer .inner form {
+				#contactme .inner form {
 					width: 100%;
 					margin: 0 0 4em 0;
 				}
 
-				#footer .inner .contact {
+				#contactme .inner .contact {
 					width: 100%;
 					margin: 0 0 4em 0;
 				}
 
-				#footer .inner .copyright {
+				#contactme .inner .copyright {
 					margin: 4em 0 2em 0;
 				}
 
@@ -3711,20 +3712,20 @@
 
 	@media screen and (max-width: 736px) {
 
-		#footer {
+		#contactme {
 			margin-top: -2.5em;
 			padding-top: 2.5em;
 		}
 
-			#footer .inner {
+			#contactme .inner {
 				padding: 2em 2em 0.1em 2em ;
 			}
 
-				#footer .inner form {
+				#contactme .inner form {
 					margin: 0 0 3em 0;
 				}
 
-				#footer .inner .contact {
+				#contactme .inner .contact {
 					margin: 0 0 3em 0;
 				}
 
@@ -3732,14 +3733,14 @@
 
 	@media screen and (max-width: 640px) {
 
-		#footer .inner .copyright li {
+		#contactme .inner .copyright li {
 			border-left: 0;
 			display: block;
 			margin: 1em 0 0 0;
 			padding-left: 0;
 		}
 
-			#footer .inner .copyright li:first-child {
+			#contactme .inner .copyright li:first-child {
 				margin-top: 0;
 			}
 
@@ -3747,7 +3748,7 @@
 
 	@media screen and (max-width: 360px) {
 
-		#footer .inner {
+		#contactme .inner {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
 
